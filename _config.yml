@@ -1,18 +1,4 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-#
-# ,--------.      ,--.   ,--. ,--.
-# '--.  .--',---.  \  `.'  /,-'  '-.
-#    |  |  | .-. :  .'    \ '-.  .-'
-#    |  |  \   --. /  .'.  \  |  |
-#    `--'   `----''--'   '--' `--'
-
-## Base settings ##
-# url:  #the base hostname & protocol for your site e.g. https://www.someone.com
+url: https://www.yaoning.me
 baseurl: /
 title: Y's blog
 description: > #this means to ignore newlines until "nav_lists:"
@@ -26,44 +12,28 @@ nav_lists:
       zh-Hant: 關於
     url: /about.html
 
-# paths:
-#   base: /
-#   home: /
-#   all:  /all.html
-#   rss:  /feed.xml
-
-## GitHub repository (if the site is hosted by GitHub) ##
-# repository:  #e.g. someone/someone.github.io
-# repository_tree:  #e.g. master
-
-## Language & timezone ##
+## 语言&时区 ##
 lang: zh #the language of your site, eg: en(English), zh(简体中文), zh-Hans(简体中文), zh-Hant(繁體中文)
 timezone: Asia/Shanghai #see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 ## Author & social ##
 author:
   name: Yao
-  # email:  #your Email address e.g. someone@site.com
-  # facebook:  #your Facebook username
-  # twitter:  #your Twitter username
-  # github:  #your GitHub username
-  # googleplus:  #your Google+ username
-  # weibo:  #your Weibo username
-  # douban:  #your Douban username
-  # linkedin:  #your Linkedin username
+  email:  chinayaoning@gmail.com
+  github:  xcuYao
 
 ## Comment system (Disqus) ##
-disqus:
-  # shortname:  #the Disqus shortname for the site
+disqus: 
+  shortname: xcuyao #the Disqus shortname for the site
 
 ## Comment system (gitalk) ##
 # please refer to https://github.com/gitalk/gitalk for more info.
 gitalk:
-  # clientID:  #Github Application Client ID
-  # clientSecret:  #Github Application Client Secret
-  # repository:  #Github repo
-  # owner:  #Github repo owner
-  # admin: #Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
+  # clientID: 50dd91599988ba7d7032 #Github Application Client ID
+  # clientSecret: bb19c0dae13570d36cff59d21b0b310acc187a0b #Github Application Client Secret
+  # repository: https://github.com/xcuYao/xcuYao.github.io #Github repo
+  # owner: xcuYao #Github repo owner
+  # admin: xcuYao #Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
     # - owner
 
 ## Google Analytics ##
@@ -77,11 +47,11 @@ leancloud:
 
 # mathjax: true
 
-## Paginate ##
+## 分页控制 ##
 paginate: 5
 paginate_path: /blog/page:num
 
-## Post excerpts ##
+## 摘要控制 ##
 excerpt_separator: <!--more-->
 excerpt_type: text # text | html
 
