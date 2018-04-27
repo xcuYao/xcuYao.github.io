@@ -1,7 +1,7 @@
 ---
 layout: 		post
 title:			"Xcode 打包自增build脚本"
-date:			2016-08-09
+date:			2015-09-30
 categories:		工具
 key: 			10009
 ---
