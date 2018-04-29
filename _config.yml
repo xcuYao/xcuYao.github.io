@@ -48,7 +48,7 @@ leancloud:
 # mathjax: true
 
 ## 分页控制 ##
-paginate: 5
+paginate: 10
 paginate_path: /blog/page:num
 
 ## 摘要控制 ##
@@ -90,3 +90,4 @@ server_url: "0.0.0.0"
 
 ## Development ##
 isdebug: false
+
