@@ -103,6 +103,13 @@ fork 原作者的项目到自己的仓库 并起名字为`{userName}.github.io`
 
 ---
 
+### 新机器环境快速配置
+1. 下载源码 git clone <address>
+2. 安装jekyll sudo gem install jekyll
+3. 安装bundler sudo gem install bundler
+4. 安装依赖 bundler install 
+5. 启动 执行start.sh
+
 ### 参考、资料
 当配置遇到问题的时候,最好的方法是看文档想搞明白大致是怎么样实现的  
 然后参考别人OK的配置  
