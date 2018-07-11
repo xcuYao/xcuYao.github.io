@@ -9,7 +9,7 @@ key: page-about
 ---
 
 一个程序员;  
-现在在帝都搬砖;  
+以前在帝都搬砖, 现在在魔都搬砖, 将来不知道在哪里搬砖;  
 会一些Java、Objective-C、swift;  
 
 {% highlight Java %}
