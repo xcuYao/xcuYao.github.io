@@ -1,5 +1,5 @@
 # Summary
 
-* [Introduction](README.md)
-* [💻  又一台新电脑](d83d-dcbb-you-yi-tai-xin-dian-nao.md)
-
+* [介绍](README.md)
+* [又一台新电脑](posts/new_computer.md)
+* [常忘的git命令](posts/easy_forget_git.md)
