@@ -26,6 +26,7 @@
 6. [vscode](https://code.visualstudio.com/)  
 7. [lombok的安装](https://projectlombok.org/setup/intellij)    
 8. [secureCRT](https://www.vandyke.com/products/securecrt)  
+9. [PicGo](https://picgo.github.io/PicGo-Doc/zh/)   好用的图床软件  
 
 ### 其他有意思的
 1. archey -> `brew install archey`
@@ -38,3 +39,7 @@ curl的替代者
 ![](http://77wdec.com1.z0.glb.clouddn.com/WX20180504-185238.png)
 3. glances --> `brew install glances`  
 >Glances an Eye on your system. A top/htop alternative  
+
+4. 命令行从vscode打开
+shell + cmd + p
+> shell command 

@@ -1,0 +1,11 @@
+{
+    "title": "nodes",
+    "plugins": ["-highlight", "prism", "prism-themes"],
+    "pluginsConfig": {
+        "prism": {
+          "css": [
+            "prismjs/themes/prism-solarizedlight.css"
+          ]
+        }
+      }
+}
