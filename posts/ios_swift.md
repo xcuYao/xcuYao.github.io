@@ -46,9 +46,12 @@ pod repo add opt-podspecs git@code.aihuishou.com:PTJ-APP/pod-specs-repo.git
 # 发布到指定库
 pod repo push --allow-warnings opt-podspecs OPTAliPay.podspec
 # pod lib 指定源
-pod lib lint --sources='git@code.aihuishou.com:PTJ-APP/pod-specs-repo.git,https://github.com/CocoaPods/Specs'
+pod lib lint --sources='git@code.aihuishou.com:PTJ-APP/pod-specs-repo.git,https://github.com/CocoaPods/Specst'
+pod lib lint --sources='git@code.aihuishou.com:PTJ-APP/pod-specs-repo.git,https://github.com/CocoaPods/Specs,git@code.aihuishou.com:PTJ-APP/rn-specs-repo-ios.git' --allow-warnings
 # pod subspec 发布
-pod repo push --sources=http://yale@code.aihuishou.com/PTJ-APP/pod-specs-repo.git,https://github.com/CocoaPods/Specs.git --allow-warnings opt-podspecs OPTModule.podspec
+pod repo push --sources=git@code.aihuishou.com:PTJ-APP/pod-specs-repo.git,https://github.com/CocoaPods/Specs.git --allow-warnings opt-podspecs OPTModule.podspec
+pod repo push --sources=git@code.aihuishou.com:PTJ-APP/pod-specs-repo.git,https://github.com/CocoaPods/Specs.git,git@code.aihuishou.com:PTJ-APP/rn-specs-repo-ios.git --allow-warnings opt-podspecs OPTModule.podspec
+
 
 # 删除tag
 git tag -d tagName
@@ -133,5 +136,12 @@ self.classForCoder等同于ClassA.self
 1. #selector 接受的是函数指针 Selector接受的是字符串
 2. NSSelectorFromString()
 3. NSStringFromSelector()
-4. 
+```
+
+11. zsh启动速度
+```
+// 统计时间
+time zsh -i -c exit
+// 清除缓存 增加速度
+sudo rm -rf /private/var/log/asl/*.asl
 ```

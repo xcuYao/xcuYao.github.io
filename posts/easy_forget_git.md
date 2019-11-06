@@ -67,7 +67,7 @@ git reset --hard HEAD@{1}
 // 同步远程分支
 git remote update
 
-// 查看需要删除的远程分支
+// 查看需要删除的远程分支 
 git remote prune origin --dry-run
 
 // 删除上条命令列出的分支
@@ -97,7 +97,7 @@ git remote -v
 git remote set-url origin https://github.com/user/repo2.git
 ```
 
-##
+## submodule
 ```
 // git 删除submodule
 https://coderwall.com/p/csriig/remove-a-git-submodule
@@ -108,4 +108,10 @@ https://coderwall.com/p/csriig/remove-a-git-submodule
 git submodule init
 git submodule update
 
+```
+
+## .gitignore 不管用
+```
+git rm -rf --cached .
+git add .
 ```
