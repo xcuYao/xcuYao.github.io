@@ -5,7 +5,10 @@ git br -m newName
 git push origin newName
 git push --delete origin oldName
 ```
-
+批量删除（release 开头的分支）
+```
+git br | grep 'release*' | xargs git br -d
+```
 ## 配置简写
 ```ruby
 [alias]
@@ -48,6 +51,11 @@ git push origin --delete tag <tagName>
 
 # 删除tag
 git tag --delete <tagName>
+
+# 推送到远端
+git push origin <tagName>
+
+git push --tags 
 
 ```
 
@@ -114,4 +122,10 @@ git submodule update
 ```
 git rm -rf --cached .
 git add .
+```
+
+## 恢复被删除的某个文件
+```
+git reset -- <file>
+git checkout -- <file>
 ```
