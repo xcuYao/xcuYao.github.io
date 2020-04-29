@@ -47,7 +47,8 @@ pod repo add opt-podspecs git@code.aihuishou.com:PTJ-APP/pod-specs-repo.git
 pod repo push --allow-warnings opt-podspecs OPTAliPay.podspec
 # pod lib 指定源
 pod lib lint --sources='git@code.aihuishou.com:PTJ-APP/pod-specs-repo.git,https://github.com/CocoaPods/Specst'
-pod lib lint --sources='git@code.aihuishou.com:PTJ-APP/pod-specs-repo.git,https://github.com/CocoaPods/Specs,git@code.aihuishou.com:PTJ-APP/rn-specs-repo-ios.git' --allow-warnings
+pod lib lint --sources='git@code.aihuishou.com:PTJ-APP/pod-specs-repo.git,https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git,git@code.aihuishou.com:PTJ-APP/rn-specs-repo-ios.git' --allow-warnings
+
 # pod subspec 发布
 pod repo push --sources=git@code.aihuishou.com:PTJ-APP/pod-specs-repo.git,https://github.com/CocoaPods/Specs.git --allow-warnings opt-podspecs OPTModule.podspec
 pod repo push --sources=git@code.aihuishou.com:PTJ-APP/pod-specs-repo.git,https://github.com/CocoaPods/Specs.git,git@code.aihuishou.com:PTJ-APP/rn-specs-repo-ios.git --allow-warnings opt-podspecs OPTModule.podspec

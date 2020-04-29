@@ -1,11 +1,15 @@
 # Summary
 
-* 开发工具相关
-    * [软件](posts/software.md)
-    * [命令](posts/command.md)
-    * [常忘的git命令](posts/easy_forget_git.md)
-    * [gitbook实用插件](posts/gitbook_plugin.md)
-* 读书笔记
+* [开发](posts/develop/ReadMe.md)
+    * [收藏的软件](posts/develop/software.md)
+    * [git命令](posts/develop/easy_forget_git.md)
+    * [gitbook实用插件](posts/develop/gitbook_plugin.md)
+    * [pod命令](posts/develop/easy_forget_pods.md)
+* [读书笔记](posts/notes/ReadMe.md)
     * [程序员的自我修养-编译、链接和库]()
-
+* [iOS逆向]()
+    * [工具准备]()
+    * [思维导图]()
+    * [实践]()
+* [算法相关](posts/arithmetic/ReadMe.md)
 * [介绍](README.md)
