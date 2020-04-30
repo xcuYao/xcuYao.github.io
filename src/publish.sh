@@ -12,6 +12,8 @@ cd src
 # 将_books文件夹下内容移动到上级目录
 cp -r _book/* ../
 
+cd ..
+
 git add . && git commit -m $1
 
 git pull
