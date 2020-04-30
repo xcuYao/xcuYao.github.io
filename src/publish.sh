@@ -1,12 +1,18 @@
 #! /bin/bash
 
-gitbook install & gitbook build
+gitbook build
 
-cp -R _books/* .
+cd ..
 
-git add .
+# 删除除src之外的文件
+ls | grep -v src | xargs rm -rf {}
 
-git commit -m $1
+cd src
+
+# 将_books文件夹下内容移动到上级目录
+cp -r _book/* ../
+
+git add . && git commit -m $1
 
 git pull
 
