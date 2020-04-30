@@ -5,6 +5,7 @@
     * [git命令](posts/develop/easy_forget_git.md)
     * [gitbook实用插件](posts/develop/gitbook_plugin.md)
     * [pod命令](posts/develop/easy_forget_pods.md)
+    * [iOS三方库收集](posts/develop/ios_framework.md)
 * [读书笔记](posts/notes/ReadMe.md)
     * [程序员的自我修养-编译、链接和库]()
 * [iOS逆向]()
